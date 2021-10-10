@@ -1,0 +1,14 @@
+print("{:103s}" .format (103*'-'));
+print("{:16s} {:>86}".format ('NOTA FISCAL','01/08/2020'));
+print("{:13s} {:>30s} " .format ('Cliente: 12345','Nome: José Simão da Silva'));
+print("{:26s}".format('CPF/CNPJ: 100.200.345-34'));
+print("{:103s}" .format (103*'-'));
+print("{:5s}".format('ITENS'));
+print("{:103s}" .format (103*'-'));
+print("{:5s} {:>11s} {:>35s} {:>20s} {:>20}".format ('Seq', 'Descrição', 'QTD','Valor Unit','Preço'));
+print("{:6s} {:41s} {:5s} {:>21s} {:>26s}" .format (4*'-', 39*'-',5*'-', 13*'-', 20*'-'));
+print("{:7s} {:41s} {:15s} {:6s} {:>30s}".format ('001', 'Arroz Agulha','10','5.50','55.00'));
+print("{:7s} {:41s} {:15s} {:6} {:>30s}".format ('002', 'Feijao Mulatinho', '10','8.50','85.00'));
+print("{:7s} {:41s} {:15s} {:6s} {:>30}" .format ('003', 'Macarrao Fortaleza', '10', '4.50','45.00'));
+print("{:103s}".format(103*'_'));
+print("{:20}".format('Valor Total: 185.00'));
